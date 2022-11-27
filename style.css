@@ -1,0 +1,305 @@
+body
+{
+	font-family: 'Petit Formal Script', cursive;
+	background-color: #f8afba; /*#fab1bc ( #f8afba ten tez ) kolor w ktory to przechodzi #e46a7f róż we wianku #db4e53 paznokcie #db4e53 sukienka #b7917a skora #8a3729 usta*/
+	font-size: 38px;
+	color: white;	
+	margin: 0;
+}
+#container
+{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo
+{
+	/*background-color: white;*/
+	height: 170px;
+	width: 100%;
+	margin: 100px 0;
+}
+h1
+{
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	font-size: 128px;
+	margin-top: 0;
+	padding: 15px;
+	letter-spacing: 7px;
+	text-shadow: 2px 2px 8px #000000;
+}
+#nav
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	/*border: 1px solid #ffffff;*/
+	text-align: center;
+	background-color: #db4e53;
+	padding: 20px 0;
+	height: 140px;
+}
+.sticky
+{
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top:0;
+	z-index: 100;
+}
+ul > li
+{
+	display: inline-block;
+	font-weight: 700;
+	padding: 10px 30px;
+	text-align: center;
+	letter-spacing: 5px;
+	border-right: 3px dashed #8a3729;
+}
+ul > li:first-child
+{
+	border-left: 3px dashed #8a3729;
+}
+ul > li:hover
+{
+	background-color: #fab1bc;
+	color: black;
+}
+.content
+{
+	width: max-width;
+	font-weight: 700;
+	/*border-left: 2px dashed #8a3729;
+	border-right: 2px dashed #8a3729;*/
+	padding: 80px;
+	color: white;/*#f7e1f6;*/
+	text-align: center;
+	background-color: #db4e53;
+	margin-top: 400px;
+	margin-bottom: 400px;
+}
+.contentWrapper
+{
+	margin-left: auto;
+	margin-right: auto;
+	height: 800px;
+	width: 1500px;
+	padding: 80px;
+	border: 1px dotted #fff;
+}
+.socials
+{
+	width:100%;
+	text-align: center;
+	background-color: #191d21; /*nie wiadomo czemu nie działa ten kolor w całym divie*/
+}
+.socialdivs
+{
+	width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 300px;
+}
+.fb
+{
+	width: 300px;
+	height:300px;
+	padding: 20px;
+	transition: all 0.4s ease-in-out;
+	float:left;
+	border: 3px dashed #e46a7f;
+	border-radius: 100%;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.fb:hover
+{
+	background-color: #4668b3;
+	-webkit-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+}
+.ig
+{
+	width: 300px;
+	height:300px;
+	padding: 20px;
+	transition: all 0.4s ease-in-out;
+	float:left;
+	border: 3px dashed #e46a7f;
+	border-radius: 100%;
+	margin-left: 150px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+.ig:hover
+{
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+	-webkit-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+}
+.user
+{
+	width: 300px;
+	height:300px;
+	padding: 20px;
+	transition: all 0.4s ease-in-out;
+	float:left;
+	border: 3px dashed #e46a7f;
+	border-radius: 100%;
+	margin-left:150px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+	cursor: pointer;
+}
+.user:hover
+{
+	background-color: #76b854;
+	-webkit-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+}
+.footer
+{
+	width: 100%;
+	margin: 0;
+	padding: 45px;
+	text-align: center;
+	background-color: #db4e53 ;
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+.scrollup
+{
+	width: 64px;
+	height: 64px;
+	text-decoration: none;
+	background: url("img/up.png") no-repeat 0px 0px;
+	position: fixed;
+	right: 50px;
+	bottom: 50px;
+	display: none;
+}
+.eye1
+{
+	 width:450px; 
+	 height: 336px; 
+	 border-radius: 60%;
+	 border: 1px solid #fff;
+	 margin-top: 150px;
+	 margin-bottom: 50px;
+	 margin-left: 200px;
+	 opacity: 0.9;
+	 overflow: hidden;
+	 transition: all 0.5s ease-in-out;
+	 -webkit-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	 
+}
+figure
+{
+	float: left;
+}
+.sign
+{
+	width: 450px;
+	margin-left: 200px;
+	font-size: 46px;
+}
+.eye1 img
+{
+	transition: all 0.5s ease-in-out;
+	border-radius: 100%;
+}
+.eye1:hover img
+{
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	cursor: pointer;
+}
+.eye1:hover
+{
+	opacity: 1.0;
+}
+img
+{
+	width: 100%;
+	height: 100%;
+}
+.portrait
+{
+	width: 612px; 
+	height: 812px;
+	float: right;
+	border: 1px solid #fff;
+	display: inline-block;
+	-webkit-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	-moz-box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+	box-shadow: 0px 0px 36px -5px rgba(66, 68, 90, 1);
+}
+.plainText
+{
+	float: right;
+	width: 850px;
+	font-size: 48px;
+	margin-top: 50px;
+	display: inline-block;
+	height: 772px;
+	letter-spacing: 5px;
+	text-align: justify;
+	margin-right: 25px;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+th, td {
+  background-color: #f8afba;
+}
+table
+{
+	width: 70%;
+	height: 500px;
+	font-size: 50px;
+	letter-spacing: 3px;
+	margin-left: auto;
+	margin-right: auto;
+}
+tr:hover 
+{
+	color: #e46a7f;
+	cursor: pointer;
+	text-shadow:2px 2px 4px #000000;
+}
+tr
+{
+	transition: all 0.7s;
+	transition-timing-function: ease-in-out;
+}
+.makeup
+{
+	float: left;
+	width: 800px;
+	height: 1200px;
+	margin: 100px 25px;
+	filter: brightness(1);
+}
+.makeup:hover
+{
+	filter: brightness(1.1);
+}
+.contentWrapperMakeUp
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 2800px;
+	border: 1px solid #fff;
+}
